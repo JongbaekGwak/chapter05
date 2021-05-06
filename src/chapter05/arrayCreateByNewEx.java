@@ -1,4 +1,4 @@
-package chapter05;
+package src;
 
 public class arrayCreateByNewEx {
 
