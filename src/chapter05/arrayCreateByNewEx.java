@@ -1,9 +1,9 @@
-package src;
+package chapter05;
 
 public class arrayCreateByNewEx {
 
 	public static void main(String[] args) {
-		int arr1[] = new int[3];
+		int arr1[] = new int[3];	//	정수 타입의 빈 배열을 선언 시 배열의 요소를 0으로 초기화
 		for (int i = 0; i < 3; i++) {
 			System.out.println("arr1 [" + i + "] : " + arr1[i]);
 		}
@@ -15,7 +15,7 @@ public class arrayCreateByNewEx {
 			System.out.println("arr1 [" + i + "] : " + arr1[i]);
 		}
 
-		double arr2[] = new double[3];
+		double arr2[] = new double[3];	//	실수형 빈 배열을 선언하면 0.0으로 초기화
 		for (int i = 0; i < 3; i++) {
 			System.out.println("arr2 [" + i + "] : " + arr2[i]);
 		}
@@ -27,7 +27,7 @@ public class arrayCreateByNewEx {
 			System.out.println("arr2 [" + i + "] : " + arr2[i]);
 		}
 
-		String arr3[] = new String[3];
+		String arr3[] = new String[3];	//	String 타입의 빈 배열을 선언 시 요소를 null으로 초기화
 		for (int i = 0; i < 3; i++) {
 			System.out.println("arr3 [" + i + "] : " + arr3[i]);
 		}
