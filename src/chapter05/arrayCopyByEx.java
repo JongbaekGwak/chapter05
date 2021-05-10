@@ -52,6 +52,7 @@ public class arrayCopyByEx {
 		num3[0] = 100;
 		num4[4] = 5000;
 
+//		배열 num3이 가지고 있는 주소와 num4가 가지고 있는 주소가 동일하기 때문에 num3의 요소를 변경하거나 num4의 요소를 변경하면 서로 영향을 준다.
 		for (int i = 0; i < num3.length; i++) {
 			System.out.println(num3[i]);
 		}
