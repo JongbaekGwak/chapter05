@@ -7,9 +7,10 @@ public class enumWeekEx {
 	public static void main(String[] args) {
 		Week today = null;
 
-		Calendar cal = Calendar.getInstance();
-
-		int week = cal.get(Calendar.DAY_OF_WEEK);
+//		자바에서 사용하는 날짜 및 시간에 관련된 클래스
+		Calendar cal = Calendar.getInstance();	//	java에서 지원 하는 달력 클래스 : 날짜와 시간 계산시 사용
+//		Calendar.DAY_OF_WEEK는 요일을 숫자로 표현하여 변환
+		int week = cal.get(Calendar.DAY_OF_WEEK);	//	한주를 숫자로 표현(현재 시간)
 
 		switch (week) {
 		case 1:
