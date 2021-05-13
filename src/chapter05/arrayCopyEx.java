@@ -85,7 +85,6 @@ public class arrayCopyEx {
 		for (int i = 0; i < oriStrArrFill.length; i++) {
 			System.out.println("oriStrArrFill [" + i + "] : " + oriStrArrFill[i]);
 		}
-
 	}
 
 }
